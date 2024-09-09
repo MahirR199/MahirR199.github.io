@@ -1,3 +1,4 @@
+require('dotenv').config();
 import logo from './logo.svg';
 import './App.css';
 import { NavBar, Container, Nav } from './components/NavBar';
