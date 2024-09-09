@@ -51,6 +51,7 @@ export const Projects = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__bounce" : ""}>
                             <h2>Projects</h2>
+                            <p></p>
                             </div>}
                         </TrackVisibility>
                         <Tab.Container id= "projects-tab" defaultActiveKey="first">

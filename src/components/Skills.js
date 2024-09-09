@@ -4,6 +4,9 @@ import "react-multi-carousel/lib/styles.css";
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
+import circle from "../assets/img/circle.svg";
+import purple from "../assets/img/purple.svg";
+
 import colorSharp from "../assets/img/color-sharp.png";
 export const Skills = () => {
     const responsive = {
@@ -33,25 +36,49 @@ export const Skills = () => {
                     <Col>
                         <div className="skill-bx">
                             <h2>
-                                Skills
+                                Technical Skills
                             </h2>
-                            <p>Hi I'm Mahir skills go here</p>
+                            <p></p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
-                                    <h5>Web Development</h5>
+                                    <img src={purple} alt="Image" />
+                                    <h5>Linux/Unix</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
-                                    <h5>Brand Identity</h5>
+                                    <img src={purple} alt="Image" />
+                                    <h5>Python</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
-                                    <h5>Logo Design</h5>
+                                    <img src={purple} alt="Image" />
+                                    <h5>Rust</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
-                                    <h5>Game Deisgn</h5>
+                                    <img src={purple} alt="Image" />
+                                    <h5>Java</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={purple} alt="Image" />
+                                    <h5>Elixir</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={purple} alt="Image" />
+                                    <h5>Javascript</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={purple} alt="Image" />
+                                    <h5>C/C#/C++</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={purple} alt="Image" />
+                                    <h5>SQL</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={purple} alt="Image" />
+                                    <h5>HTML/CSS</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={purple} alt="Image" />
+                                    <h5>Haskell</h5>
                                 </div>
                             </Carousel>
                         </div>
