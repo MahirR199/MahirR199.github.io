@@ -57,7 +57,7 @@ export const Banner = () => {
                                 <span className="tagline">Welcome to my Portfolio</span>
                                 <h1>{`Hi I'm a `}<span className="wrap">{text}</span></h1>
                                 <p>My name is Mahir Rahman and I'm a 3rd year computer science student at Toronto Metropolitan University</p>
-                                <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/> </button>
+                                <button onClick={() => document.getElementById('connect').scrollIntoView({ behavior: 'smooth' })}>Let's connect <ArrowRightCircle size={25} /></button>
                             </div>}
                         </TrackVisibility>
                     </Col>

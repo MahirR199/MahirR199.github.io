@@ -1,9 +1,13 @@
 import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCards";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/applemusic.jpg";
+import projImg2 from "../assets/img/houseprice.jpg";
+import projImg3 from "../assets/img/hobowiz.jpg";
+import projImg4 from "../assets/img/portfolio.jpg";
+import projImg5 from "../assets/img/checkers.png";
+import projImg6 from "../assets/img/spicy.jpg";
+
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
 import { isVisible } from "@testing-library/user-event/dist/utils";
@@ -12,34 +16,40 @@ export const Projects = () => {
 
     const projects = [
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Apple Music App",
+            description: "Java",
             imgUrl: projImg1,
+            link: "https://github.com/MahirR199/Apple-Music-Application"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Home Price Predictor",
+            description: "Python",
             imgUrl: projImg2,
+            link: "https://github.com/MahirR199/PredictHomePrice"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Hogwarts Hobo",
+            description: "Python",
             imgUrl: projImg3,
+            link: "https://github.com/MahirR199/HogwartsHobo"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
+            title: "Portfolio",
+            description: "Javascript",
+            imgUrl: projImg4,
+            link: "https://github.com/MahirR199/portfolio"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg2,
+            title: "Checkers",
+            description: "Java",
+            imgUrl: projImg5,
+            link: "https://github.com/MahirR199/Checkers"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
+            title: "Spicy Restaurant",
+            description: "C#",
+            imgUrl: projImg6,
+            link: "https://github.com/MahirR199/Spicy"
         },
     ]
     return (
@@ -50,7 +60,7 @@ export const Projects = () => {
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__bounce" : ""}>
-                            <h2>Projects</h2>
+                            <h2>Projects and Hobbies</h2>
                             <p></p>
                             </div>}
                         </TrackVisibility>
@@ -59,14 +69,14 @@ export const Projects = () => {
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">Tab One</Nav.Link>
                                 </Nav.Item>
-                                <Nav.Item>
+                                {/* <Nav.Item>
                                     <Nav.Link eventKey="second">Tab Two</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link eventKey="third">
                                         Tab Three
                                     </Nav.Link>
-                                </Nav.Item>
+                                </Nav.Item> */}
                             </Nav>
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">

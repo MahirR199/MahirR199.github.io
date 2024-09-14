@@ -1,9 +1,9 @@
+require('dotenv').config();
 const apiKey = process.env.REACT_APP_API_KEY;
 const express = require("express");
 const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
-require('dotenv').config();
 // server used to send send emails
 const app = express();
 app.use(cors());
@@ -16,7 +16,7 @@ console.log(process.env.EMAIL_PASS);
 const contactEmail = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: "mahir199.tanzil@gmail.com",
+    user: 'mahir199.tanzil@gmail.com',
     pass: apiKey
   },
 });
