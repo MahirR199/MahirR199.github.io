@@ -1,9 +1,14 @@
+
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/profile_pic.jpg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -37,7 +42,11 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand>
-            <img src={logo} alt="Logo" />
+            <a href="#home">
+                <button className="vvd">
+                  <span>Mahir Rahman</span>
+                </button>
+            </a> 
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -50,13 +59,16 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/mahir-tanzil-rahman/"><img src={navIcon1} alt="" /></a>
-                <a href="https://www.facebook.com/profile.php?id=100011080813264"><img src={navIcon2} alt="" /></a>
-                <a href="https://www.instagram.com/mahir__199/"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/mahir-tanzil-rahman/"><LinkedInIcon sx={{ color: 'white' }} /></a>
+                <a href="https://www.instagram.com/mahir__199/"><InstagramIcon sx={{ color: 'white' }} /></a>
+                <a href="https://github.com/MahirR199"><GitHubIcon sx={{ color: 'white' }} /></a>
+                <a href={`mailto:${process.env.REACT_APP_EMAIL}`}><EmailIcon sx={{ color: 'white' }} /></a>
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
+              {/* <a href={`mailto:${process.env.REACT_APP_EMAIL}`}>
+                <button className="vvd">
+                  <span>Let’s Connect</span>
+                </button>
+              </a> */}
             </span>
           </Navbar.Collapse>
         </Container>

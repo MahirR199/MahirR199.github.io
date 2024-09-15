@@ -1,12 +1,18 @@
 import { Container, Col, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
-import circle from "../assets/img/circle.svg";
-import purple from "../assets/img/purple.svg";
-
+import python from "../assets/img/python.svg";
+import linux from "../assets/img/linux.svg";
+import rust from "../assets/img/rust.svg";
+import java from "../assets/img/java.svg";
+import elixir from "../assets/img/elixir.svg";
+import javascript from "../assets/img/javascript.svg";
+import c from "../assets/img/c.svg";
+import cpp from "../assets/img/cpp.svg";
+import cs from "../assets/img/cs.svg";
+import sql from "../assets/img/sql.svg";
+import html from "../assets/img/HTML.svg";
+import haskell from "../assets/img/haskell.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 export const Skills = () => {
     const responsive = {
@@ -41,43 +47,51 @@ export const Skills = () => {
                             <p></p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={purple} alt="Image" />
-                                    <h5>Linux/Unix</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={purple} alt="Image" />
+                                    <img src={python} alt="Image" />
                                     <h5>Python</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={purple} alt="Image" />
-                                    <h5>Rust</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={purple} alt="Image" />
+                                    <img src={java} alt="Image" />
                                     <h5>Java</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={purple} alt="Image" />
+                                    <img src={rust} alt="Image" />
+                                    <h5>Rust</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={linux} alt="Image" />
+                                    <h5>Linux/Unix</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={elixir} alt="Image" />
                                     <h5>Elixir</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={purple} alt="Image" />
+                                    <img src={javascript} alt="Image" />
                                     <h5>Javascript</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={purple} alt="Image" />
-                                    <h5>C/C#/C++</h5>
+                                    <img src={c} alt="Image" />
+                                    <h5>C</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={purple} alt="Image" />
+                                    <img src={cpp} alt="Image" />
+                                    <h5>C++</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={cs} alt="Image" />
+                                    <h5>C#</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={sql} alt="Image" />
                                     <h5>SQL</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={purple} alt="Image" />
+                                    <img src={html} alt="Image" />
                                     <h5>HTML/CSS</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={purple} alt="Image" />
+                                    <img src={haskell} alt="Image" />
                                     <h5>Haskell</h5>
                                 </div>
                             </Carousel>

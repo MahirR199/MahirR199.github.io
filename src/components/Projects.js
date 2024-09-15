@@ -60,24 +60,24 @@ export const Projects = () => {
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__bounce" : ""}>
-                            <h2>Projects and Hobbies</h2>
+                            <h2>Projects</h2>
                             <p></p>
                             </div>}
                         </TrackVisibility>
                         <Tab.Container id= "projects-tab" defaultActiveKey="first">
-                            <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                            {/* <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">Tab One</Nav.Link>
                                 </Nav.Item>
-                                {/* <Nav.Item>
+                                <Nav.Item>
                                     <Nav.Link eventKey="second">Tab Two</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link eventKey="third">
                                         Tab Three
                                     </Nav.Link>
-                                </Nav.Item> */}
-                            </Nav>
+                                </Nav.Item>
+                            </Nav> */}
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
                                     <Row>
