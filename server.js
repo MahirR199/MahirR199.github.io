@@ -1,9 +1,5 @@
 require('dotenv').config();
 
-// Debugging: Log the environment variables to check their values
-console.log('API Key:', process.env.REACT_APP_API_KEY);
-console.log('Email User:', process.env.EMAIL_USER);
-console.log('Email Pass:', process.env.EMAIL_PASS);
 
 const apiKey = process.env.REACT_APP_API_KEY;
 const express = require("express");
