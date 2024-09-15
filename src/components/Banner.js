@@ -44,7 +44,10 @@ export const Banner = () => {
             }
         
     }
-
+    const linkStyle = {
+        textDecoration: 'none',
+        color: 'inherit',
+      };
 
     return (
         <section className="banner" id="home">
@@ -57,7 +60,7 @@ export const Banner = () => {
                                 <span className="tagline">Welcome to my Portfolio</span>
                                 <h1>{`Hi I'm a `}<span className="wrap">{text}</span></h1>
                                 <p>My name is Mahir Rahman and I'm a 3rd year computer science student at Toronto Metropolitan University</p>
-                                <button onClick={() => document.getElementById('connect').scrollIntoView({ behavior: 'smooth' })}>Let's connect <ArrowRightCircle size={25} /></button>
+                                <a href={`mailto:${process.env.REACT_APP_EMAIL}`}style={linkStyle}><button>Let's connect <ArrowRightCircle size={25} /></button></a>
                             </div>}
                         </TrackVisibility>
                     </Col>
