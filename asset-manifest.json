@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/www.mahir-rahman.co/static/css/main.9f8ceedf.css",
-    "main.js": "/www.mahir-rahman.co/static/js/main.dbcb03cf.js",
-    "static/js/453.ace21015.chunk.js": "/www.mahir-rahman.co/static/js/453.ace21015.chunk.js",
+    "main.js": "/www.mahir-rahman.co/static/js/main.59d94536.js",
+    "static/js/453.c0014c13.chunk.js": "/www.mahir-rahman.co/static/js/453.c0014c13.chunk.js",
     "static/media/color-sharp.png": "/www.mahir-rahman.co/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/www.mahir-rahman.co/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/checkers.png": "/www.mahir-rahman.co/static/media/checkers.1c8d88258c14a082ab6b.png",
@@ -39,11 +39,11 @@
     "static/media/HTML.svg": "/www.mahir-rahman.co/static/media/HTML.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "static/media/nav-icon2.svg": "/www.mahir-rahman.co/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.9f8ceedf.css.map": "/www.mahir-rahman.co/static/css/main.9f8ceedf.css.map",
-    "main.dbcb03cf.js.map": "/www.mahir-rahman.co/static/js/main.dbcb03cf.js.map",
-    "453.ace21015.chunk.js.map": "/www.mahir-rahman.co/static/js/453.ace21015.chunk.js.map"
+    "main.59d94536.js.map": "/www.mahir-rahman.co/static/js/main.59d94536.js.map",
+    "453.c0014c13.chunk.js.map": "/www.mahir-rahman.co/static/js/453.c0014c13.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f8ceedf.css",
-    "static/js/main.dbcb03cf.js"
+    "static/js/main.59d94536.js"
   ]
 }
