@@ -1,3 +1,8 @@
+# About
+
+This project is a portfolio website to display the different technical skills and projects I've worked on. This project was also a way to learn more about React and Javascript
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
