@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.396296c9.css",
-    "main.js": "/static/js/main.5e144368.js",
+    "main.js": "/static/js/main.15c39579.js",
     "static/js/453.c0014c13.chunk.js": "/static/js/453.c0014c13.chunk.js",
+    "static/media/hobowiz.jpg": "/static/media/hobowiz.36da3f3d0483397d5342.jpg",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/checkers.png": "/static/media/checkers.1c8d88258c14a082ab6b.png",
     "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/spicy.jpg": "/static/media/spicy.cd60a9300497d2ee39d1.jpg",
     "static/media/header-img.svg": "/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
-    "static/media/hobowiz.jpg": "/static/media/hobowiz.c0a5166b7a5fe2bf49b2.jpg",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/houseprice.jpg": "/static/media/houseprice.1251e53f36e73e270bcc.jpg",
@@ -39,11 +39,11 @@
     "static/media/HTML.svg": "/static/media/HTML.bfc29cc664956a7748f9ee78fa82ec7b.svg",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.396296c9.css.map": "/static/css/main.396296c9.css.map",
-    "main.5e144368.js.map": "/static/js/main.5e144368.js.map",
+    "main.15c39579.js.map": "/static/js/main.15c39579.js.map",
     "453.c0014c13.chunk.js.map": "/static/js/453.c0014c13.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.396296c9.css",
-    "static/js/main.5e144368.js"
+    "static/js/main.15c39579.js"
   ]
 }
